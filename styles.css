@@ -11,8 +11,6 @@ h1{
 h2{
     font-size: 60px;
     text-align: center;
-    /* used for testing */
-    /* background-color: aquamarine; */
 }
 
 p{
@@ -61,7 +59,9 @@ p.footer {
 
 .container-border {
     border: 5px solid darkblue;
+    border-radius: 10px;
     background-color: #82a2e4;
+    box-shadow: 0 16px 32px #00000066;
     display: flex;
     flex-direction:column;
     margin: 20px;
@@ -122,4 +122,16 @@ form input[type="submit"] {
 .avatar {
     width: 400px;
     height: 400px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #82a2e4;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
 }
