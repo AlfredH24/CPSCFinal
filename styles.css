@@ -64,6 +64,8 @@ p.footer {
     background-color: #82a2e4;
     display: flex;
     flex-direction:column;
+    margin: 20px;
+    padding: 30px
 }
 
 .container-border-row {
@@ -71,6 +73,8 @@ p.footer {
     background-color: #82a2e4;
     display: flex;
     flex-direction: row;
+    margin: 20px;
+    padding: 30px;
 }
 
 .container {
@@ -78,6 +82,8 @@ p.footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    padding: 30px;
 }
 
 .footer {
@@ -99,6 +105,12 @@ form input[type="submit"] {
 .image {
     width: 40px;
     height: 40px;
+}
+
+.screenshot {
+    width: 800px;
+    height: auto;
+    align-self: center;
 }
 
 .LargeImage {
